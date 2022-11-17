@@ -9,13 +9,18 @@
 /* Begin PBXBuildFile section */
 		E626D56F291301180021013D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E626D56E291301180021013D /* AppDelegate.swift */; };
 		E626D571291301180021013D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E626D570291301180021013D /* SceneDelegate.swift */; };
-		E626D573291301180021013D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E626D572291301180021013D /* ViewController.swift */; };
+		E626D573291301180021013D /* VenuesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E626D572291301180021013D /* VenuesViewController.swift */; };
 		E626D576291301180021013D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E626D574291301180021013D /* Main.storyboard */; };
 		E626D578291301190021013D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E626D577291301190021013D /* Assets.xcassets */; };
 		E626D57B291301190021013D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E626D579291301190021013D /* LaunchScreen.storyboard */; };
 		E626D5862913011A0021013D /* Project3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E626D5852913011A0021013D /* Project3Tests.swift */; };
 		E626D5902913011A0021013D /* Project3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E626D58F2913011A0021013D /* Project3UITests.swift */; };
 		E626D5922913011A0021013D /* Project3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E626D5912913011A0021013D /* Project3UITestsLaunchTests.swift */; };
+		E626D5A52919A59B0021013D /* CoinMapAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E626D5A42919A59B0021013D /* CoinMapAPI.swift */; };
+		E626D5A72919A7E30021013D /* VenueStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E626D5A62919A7E30021013D /* VenueStore.swift */; };
+		E626D5A9291AF5800021013D /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E626D5A8291AF5800021013D /* Venue.swift */; };
+		E6453C32292334EF00CD8C1B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6453C31292334EF00CD8C1B /* MapViewController.swift */; };
+		E6DAE39F29256D9500E9136D /* VenueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DAE39E29256D9500E9136D /* VenueCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +44,7 @@
 		E626D56B291301180021013D /* Project3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E626D56E291301180021013D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E626D570291301180021013D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E626D572291301180021013D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E626D572291301180021013D /* VenuesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenuesViewController.swift; sourceTree = "<group>"; };
 		E626D575291301180021013D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E626D577291301190021013D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E626D57A291301190021013D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +54,11 @@
 		E626D58B2913011A0021013D /* Project3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E626D58F2913011A0021013D /* Project3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project3UITests.swift; sourceTree = "<group>"; };
 		E626D5912913011A0021013D /* Project3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E626D5A42919A59B0021013D /* CoinMapAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinMapAPI.swift; sourceTree = "<group>"; };
+		E626D5A62919A7E30021013D /* VenueStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueStore.swift; sourceTree = "<group>"; };
+		E626D5A8291AF5800021013D /* Venue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
+		E6453C31292334EF00CD8C1B /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		E6DAE39E29256D9500E9136D /* VenueCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +111,12 @@
 			children = (
 				E626D56E291301180021013D /* AppDelegate.swift */,
 				E626D570291301180021013D /* SceneDelegate.swift */,
-				E626D572291301180021013D /* ViewController.swift */,
+				E626D572291301180021013D /* VenuesViewController.swift */,
+				E6DAE39E29256D9500E9136D /* VenueCell.swift */,
+				E626D5A62919A7E30021013D /* VenueStore.swift */,
+				E626D5A8291AF5800021013D /* Venue.swift */,
+				E626D5A42919A59B0021013D /* CoinMapAPI.swift */,
+				E6453C31292334EF00CD8C1B /* MapViewController.swift */,
 				E626D574291301180021013D /* Main.storyboard */,
 				E626D577291301190021013D /* Assets.xcassets */,
 				E626D579291301190021013D /* LaunchScreen.storyboard */,
@@ -258,9 +273,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E626D573291301180021013D /* ViewController.swift in Sources */,
+				E626D5A9291AF5800021013D /* Venue.swift in Sources */,
+				E626D5A72919A7E30021013D /* VenueStore.swift in Sources */,
+				E626D573291301180021013D /* VenuesViewController.swift in Sources */,
 				E626D56F291301180021013D /* AppDelegate.swift in Sources */,
+				E626D5A52919A59B0021013D /* CoinMapAPI.swift in Sources */,
+				E6DAE39F29256D9500E9136D /* VenueCell.swift in Sources */,
 				E626D571291301180021013D /* SceneDelegate.swift in Sources */,
+				E6453C32292334EF00CD8C1B /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
