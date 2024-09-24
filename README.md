@@ -1,6 +1,6 @@
 # CryptoMap
 
-An iOS-based application which queries an API to to retrieve and display a the details and locations of crypto currency ATM's across the world.
+An iOS-based application which queries an API to to retrieve and display the details and locations of crypto currency ATM's across the world.
 
 ### Features
 
